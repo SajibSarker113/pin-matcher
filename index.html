@@ -69,8 +69,10 @@ function matchWithPin(){
 
     if(randomNum == inputPinNum){
         document.getElementById('pin-match').style.display = 'block';
+        document.getElementById('pin-not-match').style.display = 'none';
         }
         else{
+            document.getElementById('pin-match').style.display = 'none';
             document.getElementById('pin-not-match').style.display = 'block'; 
         }
     
